@@ -9,4 +9,4 @@ RUN apt-get update && \
 RUN gem install bundler --no-ri --no-rdoc
 ENV BUNDLE_PATH /bundle
 
-RUN gem install rubocop --no-ri --no-rdoc
+RUN gem install rubocop --no-ri --no-rdoc -v 0.46
